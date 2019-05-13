@@ -37,12 +37,6 @@
       </dependency>
       <dependency>
         <groupId>org.infrastructurebuilder</groupId>
-        <artifactId>ibcore-extended</artifactId>
-        <type>test-jar</type>
-        <version>${ib.core.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.infrastructurebuilder</groupId>
         <artifactId>ibfiles</artifactId>
         <version>${ib.core.version}</version>
       </dependency>
@@ -81,11 +75,6 @@
         <groupId>org.infrastructurebuilder</groupId>
         <artifactId>ibcore</artifactId>
         <type>test-jar</type>
-        <version>${ib.core.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.infrastructurebuilder</groupId>
-        <artifactId>ibcore-extended</artifactId>
         <version>${ib.core.version}</version>
       </dependency>
       <dependency>
