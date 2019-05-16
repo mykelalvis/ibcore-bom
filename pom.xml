@@ -3,7 +3,7 @@
   <parent>
     <groupId>org.infrastructurebuilder</groupId>
     <artifactId>ibparent-minimal</artifactId>
-    <version>4-SNAPSHOT</version>
+    <version>4</version>
   </parent>
   <groupId>org.infrastructurebuilder.util</groupId>
   <artifactId>ibcore-bom</artifactId>
@@ -21,8 +21,8 @@
   </scm>
   <properties>
     <git.url.base>git@github.com:${team.group.id}</git.url.base>
-    <ib.exceptions.version>2-SNAPSHOT</ib.exceptions.version>
-    <ib.core.version>0.9.1-SNAPSHOT</ib.core.version>
+    <ib.exceptions.version>2</ib.exceptions.version>
+    <ib.core.version>0.9.1</ib.core.version>
     <ib.site.path>${project.groupId}/${project.artifactId}/${project.version}</ib.site.path>
     <git.url>${git.url.base}/${project.artifactId}.git</git.url>
   </properties>
