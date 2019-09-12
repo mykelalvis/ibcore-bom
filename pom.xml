@@ -3,7 +3,7 @@
   <parent>
     <groupId>org.infrastructurebuilder</groupId>
     <artifactId>ibparent-minimal</artifactId>
-    <version>10</version>
+    <version>11-SNAPSHOT</version>
   </parent>
   <groupId>org.infrastructurebuilder.util</groupId>
   <artifactId>ibcore-bom</artifactId>
