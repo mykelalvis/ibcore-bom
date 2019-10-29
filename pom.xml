@@ -7,7 +7,7 @@
   </parent>
   <groupId>org.infrastructurebuilder.util</groupId>
   <artifactId>ibcore-bom</artifactId>
-  <version>0.11.5.0</version>
+  <version>0.11.5.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>${project.artifactId}</name>
   <description>Import pom for standardizing dependency sets</description>
@@ -17,7 +17,7 @@
     <connection>scm:git:${git.url}</connection>
     <url>${git.scm.url}</url>
     <developerConnection>scm:git:${git.url}</developerConnection>
-    <tag>ibcore-bom-0.11.5.0</tag>
+    <tag>HEAD</tag>
   </scm>
   <properties>
     <git.url.base>git@github.com:${team.group.id}</git.url.base>
