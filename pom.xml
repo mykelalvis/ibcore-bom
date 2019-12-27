@@ -90,6 +90,12 @@
         <artifactId>ibexceptions</artifactId>
         <version>${ib.exceptions.version}</version>
       </dependency>
+      <dependency>
+        <groupId>org.infrastructurebuilder</groupId>
+        <artifactId>ibcore-read-detect</artifactId>
+        <type>test-jar</type>
+        <version>${ib.core.version}</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 </project>
