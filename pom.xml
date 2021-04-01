@@ -56,6 +56,11 @@
       </dependency>
       <dependency>
         <groupId>org.infrastructurebuilder</groupId>
+        <artifactId>ibcore-config</artifactId>
+        <version>${ib.core.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.infrastructurebuilder</groupId>
         <artifactId>ibcore-files</artifactId>
         <version>${ib.core.version}</version>
       </dependency>
