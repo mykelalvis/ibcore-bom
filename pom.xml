@@ -3,11 +3,11 @@
   <parent>
     <groupId>org.infrastructurebuilder</groupId>
     <artifactId>ibparent-minimal</artifactId>
-    <version>41</version>
+    <version>55</version>
   </parent>
   <groupId>org.infrastructurebuilder.util</groupId>
   <artifactId>ibcore-bom</artifactId>
-  <version>0.17.3.1-SNAPSHOT</version>
+  <version>0.20.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>${project.artifactId}</name>
   <description>Import pom for standardizing dependency sets</description>
@@ -21,8 +21,9 @@
   </scm>
   <properties>
     <git.url.base>git@github.com:${team.group.id}</git.url.base>
-    <ib.exceptions.version>52</ib.exceptions.version>
-    <ib.core.version>0.17.3</ib.core.version>
+    <ib.exceptions.version>66-SNAPSHOT</ib.exceptions.version>
+    <ib.core.version>0.20.0-SNAPSHOT</ib.core.version>
+
 <!--
     <ibdata.api.version>0.16.0-SNAPSHOT</ibdata.api.version>
 -->
