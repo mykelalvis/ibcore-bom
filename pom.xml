@@ -102,6 +102,11 @@
       </dependency>
       <dependency>
         <groupId>org.infrastructurebuilder</groupId>
+        <artifactId>ibcore-read-detect-model</artifactId>
+        <version>${ib.core.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.infrastructurebuilder</groupId>
         <artifactId>ibexecutor</artifactId>
         <version>${ib.core.version}</version>
       </dependency>
@@ -117,7 +122,12 @@
       </dependency>
       <dependency>
         <groupId>org.infrastructurebuilder</groupId>
-        <artifactId>ibcore-vertx-json</artifactId>
+        <artifactId>ibcore-vertx-base</artifactId>
+        <version>${ib.core.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.infrastructurebuilder</groupId>
+        <artifactId>ibcore-vertx-blobstore</artifactId>
         <version>${ib.core.version}</version>
       </dependency>
       <dependency>
