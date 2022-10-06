@@ -132,6 +132,11 @@
       </dependency>
       <dependency>
         <groupId>org.infrastructurebuilder</groupId>
+        <artifactId>ibcore-vertx-dataobjects</artifactId>
+        <version>${ib.core.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.infrastructurebuilder</groupId>
         <artifactId>ibcore</artifactId>
         <type>test-jar</type>
         <version>${ib.core.version}</version>
