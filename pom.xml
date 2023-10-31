@@ -45,8 +45,8 @@
 
   <properties>
     <git.url.base>git@github.com:${team.group.id}</git.url.base>
-    <ib.exceptions.version>90</ib.exceptions.version>
-    <ib.core.version>0.21.0-SNAPSHOT</ib.core.version>
+    <ib.exceptions.version>92</ib.exceptions.version>
+    <ib.core.version>0.21.0</ib.core.version>
     <ib.site.path>${project.groupId}/${project.artifactId}/${project.version}</ib.site.path>
     <git.url>${git.url.base}/${project.artifactId}.git</git.url>
   </properties>
