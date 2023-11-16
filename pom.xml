@@ -59,20 +59,6 @@
         <artifactId>core-test-keyset-import-pom</artifactId>
         <version>${ib.core.version}</version>
       </dependency>
-<!-- This creates a circular dependency
-      <dependency>
-        <groupId>org.infrastructurebuilder.data</groupId>
-        <artifactId>ibdata-api</artifactId>
-        <version>${ibdata.api.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.infrastructurebuilder.data</groupId>
-        <artifactId>ibdata-api</artifactId>
-        <version>${ibdata.api.version}</version>
-        <type>test-jar</type>
-      </dependency>
--->
-
       <dependency>
         <groupId>org.infrastructurebuilder</groupId>
         <artifactId>ibcore-maven-support</artifactId>
