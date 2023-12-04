@@ -24,7 +24,7 @@
   <parent>
     <groupId>org.infrastructurebuilder</groupId>
     <artifactId>ibparent-minimal</artifactId>
-    <version>75</version>
+    <version>77</version>
   </parent>
 
   <groupId>org.infrastructurebuilder.util</groupId>
@@ -46,7 +46,7 @@
 
   <properties>
     <git.url.base>git@github.com:${team.group.id}</git.url.base>
-    <ib.exceptions.version>93</ib.exceptions.version>
+    <ib.exceptions.version>94</ib.exceptions.version>
     <ib.core.version>0.21.2-SNAPSHOT</ib.core.version>
     <ib.site.path>${project.groupId}/${project.artifactId}/${project.version}</ib.site.path>
     <git.url>${git.url.base}/${project.artifactId}.git</git.url>
