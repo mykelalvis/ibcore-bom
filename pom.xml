@@ -24,7 +24,7 @@
 	<parent>
 		<groupId>org.infrastructurebuilder</groupId>
 		<artifactId>ibparent-minimal</artifactId>
-		<version>81</version>
+		<version>82-SNAPSHOT</version>
 	</parent>
 
 	<groupId>org.infrastructurebuilder.util</groupId>
@@ -107,6 +107,26 @@
 			<dependency>
 				<groupId>org.infrastructurebuilder</groupId>
 				<artifactId>ibcore-read-detect</artifactId>
+				<version>${ib.core.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.infrastructurebuilder</groupId>
+				<artifactId>ibcore-read-detect-path</artifactId>
+				<version>${ib.core.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.infrastructurebuilder</groupId>
+				<artifactId>ibcore-read-detect-url</artifactId>
+				<version>${ib.core.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.infrastructurebuilder</groupId>
+				<artifactId>ibcore-read-detect-urllike</artifactId>
+				<version>${ib.core.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.infrastructurebuilder</groupId>
+				<artifactId>ibcore-read-detect-s3</artifactId>
 				<version>${ib.core.version}</version>
 			</dependency>
 			<dependency>
