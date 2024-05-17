@@ -46,7 +46,7 @@
 
 	<properties>
 		<git.url.base>git@github.com:${team.group.id}</git.url.base>
-		<ib.exceptions.version>101</ib.exceptions.version>
+		<ib.exceptions.version>102-SNAPSHOT</ib.exceptions.version>
 		<ib.core.version>0.22.0-SNAPSHOT</ib.core.version>
 		<ib.site.path>${project.groupId}/${project.artifactId}/${project.version}</ib.site.path>
 		<git.url>${git.url.base}/${project.artifactId}.git</git.url>
@@ -111,7 +111,7 @@
 			</dependency>
 			<dependency>
 				<groupId>org.infrastructurebuilder</groupId>
-				<artifactId>ibcore-read-detect-path</artifactId>
+				<artifactId>ibcore-read-detect-base</artifactId>
 				<version>${ib.core.version}</version>
 			</dependency>
 			<dependency>
@@ -127,6 +127,11 @@
 			<dependency>
 				<groupId>org.infrastructurebuilder</groupId>
 				<artifactId>ibcore-read-detect-s3</artifactId>
+				<version>${ib.core.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.infrastructurebuilder</groupId>
+				<artifactId>ibcore-read-detect-path-cache</artifactId>
 				<version>${ib.core.version}</version>
 			</dependency>
 			<dependency>
@@ -186,6 +191,42 @@
 				<version>${ib.core.version}</version>
 				<type>test-jar</type>
 			</dependency>
+			<dependency>
+				<groupId>org.infrastructurebuilder.relativeroot</groupId>
+				<artifactId>ibcore-relativeroot-base</artifactId>
+				<version>${ib.core.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.infrastructurebuilder.relativeroot</groupId>
+				<artifactId>ibcore-relativeroot-basicpathenv</artifactId>
+				<version>${ib.core.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.infrastructurebuilder.relativeroot</groupId>
+				<artifactId>ibcore-relativeroot-basicpathproperties</artifactId>
+				<version>${ib.core.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.infrastructurebuilder.relativeroot</groupId>
+				<artifactId>ibcore-relativeroot-classpath</artifactId>
+				<version>${ib.core.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.infrastructurebuilder.relativeroot</groupId>
+				<artifactId>ibcore-relativeroot-setpath</artifactId>
+				<version>${ib.core.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.infrastructurebuilder.relativeroot</groupId>
+				<artifactId>ibcore-relativeroot-testingpath</artifactId>
+				<version>${ib.core.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.infrastructurebuilder.relativeroot</groupId>
+				<artifactId>ibcore-relativeroot-user-home</artifactId>
+				<version>${ib.core.version}</version>
+			</dependency>
+
 		</dependencies>
 	</dependencyManagement>
 </project>
