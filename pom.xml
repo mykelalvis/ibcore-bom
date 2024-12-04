@@ -29,7 +29,7 @@
 
 	<groupId>org.infrastructurebuilder.util</groupId>
 	<artifactId>ibcore-bom</artifactId>
-	<version>0.30.0.0-SNAPSHOT</version>
+	<version>0.30.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>${project.artifactId}</name>
