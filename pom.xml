@@ -24,12 +24,12 @@
 	<parent>
 		<groupId>org.infrastructurebuilder</groupId>
 		<artifactId>ibparent-minimal</artifactId>
-		<version>82-SNAPSHOT</version>
+		<version>83</version>
 	</parent>
 
 	<groupId>org.infrastructurebuilder.util</groupId>
 	<artifactId>ibcore-bom</artifactId>
-	<version>0.22.0.0-SNAPSHOT</version>
+	<version>0.30.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>${project.artifactId}</name>
@@ -46,12 +46,12 @@
 
 	<properties>
 		<git.url.base>git@github.com:${team.group.id}</git.url.base>
-		<ib.exceptions.version>102-SNAPSHOT</ib.exceptions.version>
-		<ib.core.version>0.22.0-SNAPSHOT</ib.core.version>
-		<ib.site.path>${project.groupId}/${project.artifactId}/${project.version}</ib.site.path>
 		<git.url>${git.url.base}/${project.artifactId}.git</git.url>
-		<ib.core.read.detect.model.version>1.0.0-SNAPSHOT</ib.core.read.detect.model.version>
-		<ib.core.executor.model.version>1.0.0-SNAPSHOT</ib.core.executor.model.version>
+		<ib.exceptions.version>103</ib.exceptions.version>
+		<ib.core.version>0.30.0</ib.core.version>
+		<ib.site.path>${project.groupId}/${project.artifactId}/${project.version}</ib.site.path>
+		<ib.core.read.detect.model.version>1.0.0</ib.core.read.detect.model.version>
+		<ib.core.executor.model.version>1.0.0</ib.core.executor.model.version>
 	</properties>
 
 	<dependencyManagement>
@@ -74,8 +74,24 @@
 			</dependency>
 			<dependency>
 				<groupId>org.infrastructurebuilder</groupId>
+				<artifactId>ibcore-constants</artifactId>
+				<version>${ib.core.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.infrastructurebuilder</groupId>
 				<artifactId>ibcore</artifactId>
 				<version>${ib.core.version}</version>
+			</dependency>
+			<dependency>
+			<groupId>org.infrastructurebuilder.pathref</groupId>
+			<artifactId>ibcore-pathref</artifactId>
+			<version>${ib.core.version}</version>
+			</dependency>
+			<dependency>
+			<groupId>org.infrastructurebuilder.pathref</groupId>
+			<artifactId>ibcore-pathref</artifactId>
+			<version>${ib.core.version}</version>
+			<type>test-jar</type>
 			</dependency>
 			<dependency>
 				<groupId>org.infrastructurebuilder</groupId>
@@ -192,38 +208,38 @@
 				<type>test-jar</type>
 			</dependency>
 			<dependency>
-				<groupId>org.infrastructurebuilder.relativeroot</groupId>
-				<artifactId>ibcore-relativeroot-base</artifactId>
+				<groupId>org.infrastructurebuilder.pathref</groupId>
+				<artifactId>ibcore-pathref-properties-base</artifactId>
 				<version>${ib.core.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>org.infrastructurebuilder.relativeroot</groupId>
-				<artifactId>ibcore-relativeroot-basicpathenv</artifactId>
+				<groupId>org.infrastructurebuilder.pathref</groupId>
+				<artifactId>ibcore-pathref-properties-envpath</artifactId>
 				<version>${ib.core.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>org.infrastructurebuilder.relativeroot</groupId>
-				<artifactId>ibcore-relativeroot-basicpathproperties</artifactId>
+				<groupId>org.infrastructurebuilder.pathref</groupId>
+				<artifactId>ibcore-pathref-properties-path</artifactId>
 				<version>${ib.core.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>org.infrastructurebuilder.relativeroot</groupId>
-				<artifactId>ibcore-relativeroot-classpath</artifactId>
+				<groupId>org.infrastructurebuilder.pathref</groupId>
+				<artifactId>ibcore-pathref-classpath</artifactId>
 				<version>${ib.core.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>org.infrastructurebuilder.relativeroot</groupId>
-				<artifactId>ibcore-relativeroot-setpath</artifactId>
+				<groupId>org.infrastructurebuilder.pathref</groupId>
+				<artifactId>ibcore-pathref-setpath</artifactId>
 				<version>${ib.core.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>org.infrastructurebuilder.relativeroot</groupId>
-				<artifactId>ibcore-relativeroot-testingpath</artifactId>
+				<groupId>org.infrastructurebuilder.pathref</groupId>
+				<artifactId>ibcore-pathref-testingpath</artifactId>
 				<version>${ib.core.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>org.infrastructurebuilder.relativeroot</groupId>
-				<artifactId>ibcore-relativeroot-user-home</artifactId>
+				<groupId>org.infrastructurebuilder.pathref</groupId>
+				<artifactId>ibcore-pathref-userhome</artifactId>
 				<version>${ib.core.version}</version>
 			</dependency>
 
